@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Arkaplan"
+    tools:context=".Main3Activity">
+
+    <Button
+        android:id="@+id/oku"
+        android:layout_width="95dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="28dp"
+        android:background="#000000"
+        android:backgroundTint="#008080"
+        android:onClick="oku"
+        android:text="@string/UrunKaydet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/urunler"
+        android:layout_width="132dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="264dp"
+        android:background="#000000"
+        android:backgroundTint="#008080"
+        android:onClick="urunler"
+        android:text="@string/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/satis"
+        android:onClick="satis"
+        android:layout_width="132dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="48dp"
+        android:background="#000000"
+        android:backgroundTint="#008080"
+        android:text="@string/satis"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/urunler"
+        tools:ignore="OnClick" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

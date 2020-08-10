@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BarkodOku">
+
+
+    <SurfaceView
+        android:id="@+id/cameraSurfaceView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:layout_marginBottom="19dp"
+        app:layout_constraintBottom_toTopOf="@+id/textScanResult"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textScanResult"
+        android:layout_width="394dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:paddingEnd="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/git"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cameraSurfaceView" />
+
+    <Button
+        android:id="@+id/git"
+        android:layout_width="114dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="30dp"
+
+        android:background="@color/Arkaplan"
+        android:backgroundTint="#ff0000"
+        android:clickable="false"
+        android:enabled="false"
+        android:onClick="git"
+        android:text="OK"
+        android:textColor="@color/Arkaplan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textScanResult" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

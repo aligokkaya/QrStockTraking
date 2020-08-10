@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="UrunKaydet">UrunKaydet</string>
+    <string name="button2">Urunler</string>
+    <string name="button3">AlisVerisYap</string>
+    <string name="editText">UrunAdi</string>
+    <string name="editText1">FirmaAdi</string>
+    <string name="editText2">AlisFiyati</string>
+    <string name="editText3">SatisFiyati</string>
+    <string name="editText4">Not</string>
+    <string name="arkaplan">#FFFFFFFF</string>
+    <string name="gorseller">#FACECECE</string>
+    <string name="satis">satisyap</string>
+
+</resources>
